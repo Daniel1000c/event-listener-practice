@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #fff;
+}
+
+header {
+  padding: 20px;
+  text-align: center;
+}
+
+header > h1 {
+  font-size: 3em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000;
+  letter-spacing: 2px;
+  color: #000;
+}
+
+.btnContainer {
+  padding: 20px;
+  text-align: center;
+}
+
+/*Format buttons*/
+.btnContainer > button {
+  background: #000;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.5em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000;
+  letter-spacing: 2px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btnContainer > p {
+  font-weight: 700;
+  color: aquamarine;
+  line-height: 2;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.btnContainer > button:hover {
+  background: #fff;
+  color: #000;
+  transform: scale(1.1);
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+footer > p {
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  text-shadow: 2px 2px 2px #000;
+}
+
+/*Element classes*/
+.backgroundColor {
+  background-color: red;
+}
+
+.hidden {
+  display: none;
+}
